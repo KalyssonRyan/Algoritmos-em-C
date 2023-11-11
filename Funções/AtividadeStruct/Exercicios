@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <locale.h>
+int main(){
+  setlocale(LC_ALL, "portuguese");
+  return 0;
+}
+
+1 – Codifique, compile e execute um programa em C que crie uma estrutura Hora com os seguintes campos:
+hora, minuto e segundo. Em seguida defina uma variável do tipo da estrutura Hora e leia os valores para
+cada campo da estrutura na tela.
+2 – Codifique, compile e execute um programa em C que crie uma estrutura Endereço com os seguintes
+campos: nome da rua, número, cidade, estado e cep. Em seguida defina uma variável do tipo da estrutura
+Endereço e leia os valores para cada um dos seus campos. Ao final, imprima os valores armazenados em
+cada campo da estrutura na tela.
+3 – Codifique, compile e execute um programa em C que crie uma estrutura Pessoa com os seguintes
+campos: nome, sexo, peso, data de nascimento e endereço. Em seguida defina uma variável do tipo da
+estrutura Pessoa e leia os valores para cada um dos seus campos. Ao final, imprima os valores armazenados
+em cada campo da estrutura na tela.
+Obsimp: Crie uma nova estrutura para Data e utilize a estrutura Endereço implementada no exercício
+anterior (Questão 2).
+4 – Codifique, compile e execute um programa em C que realize o cadastro de computadores de uma
+empresa com as seguintes informações: marca, ano de fabricação e peso. Faça o cadastramento de 3
+computadores. Em seguida, imprima as informações de cada computador na tela.
+5 – Codifique, compile e execute um programa em C que crie uma estrutura representando os alunos do
+curso de Programação. A estrutura deve conter a matrícula do aluno, nome, nota da primeira prova, nota da
+segunda prova e nota da terceira prova. O programa deve executar as seguintes ações:
+a- permitir ao usuário entrar com os dados de 5 alunos
+b- encontrar o aluno com maior nota da primeira prova
+c- encontrar o aluno com maior média geral
+d- encontrar o aluno com menor média geral e- para cada aluno armazenado na estrutura diga se ele foi
+aprovado ou reprovado, considerando o valor 7 para aprovação. 
+6 – Defina as estruturas cuja representação gráfica é dada a seguir:
+a- crie um vetor com 7 elementos Cadastro.
+b- permita ao usuário entrar com dados para preencher esse 7 cadastros.
+c- encontre a pessoa com maior idade entre os cadastrados
+d- encontre as pessoas do sexo masculino
+e- encontre as pessoas com salário maior que 1000
+f- imprima os dados da pessoa cuja identidade seja igual à um valor fornecido pelo usuário 
